@@ -1,0 +1,43 @@
+.main {
+    background: url('../img/bg.webp') center center/cover no-repeat;
+    height: 500px;
+    padding: 20px;
+    &__wrapper {
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        flex-wrap: wrap;
+        color: #fff;
+        h1 {
+            font-size: 50px;
+        }
+        h2 {
+            font-size: 25px;
+        }
+    } 
+    &__icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-wrap: wrap;
+        &-item {
+            background-color: #fff;
+            width: 90px;
+            height: 90px;
+            border-radius: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 5px;
+        }
+        img {
+            width: 70%;
+            height: 70%;
+        }
+    }
+    
+    
+}
