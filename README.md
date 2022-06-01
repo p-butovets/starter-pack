@@ -1,1 +1,2 @@
-# web project starter pack
+# Project Starter Pack
+Include .gulpfile, .scss, JS, Bootstrap
