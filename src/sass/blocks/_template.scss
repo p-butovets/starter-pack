@@ -38,6 +38,36 @@
             height: 70%;
         }
     }
-    
-    
+}
+
+.slider {
+    // display:flex;
+    // justify-content: center;
+    // align-items: center;
+    position: relative;
+    img {
+        width: 100%;
+    }
+    .slick-prev {
+        width: 50px;
+        border: none;
+        background: rgba(255, 255, 255, .5);
+        outline: none;
+        position: absolute;
+        top: 50%;
+        left: 5%;
+        transform: translateY(-50%);
+        z-index: 1;
+    }
+    .slick-next {
+        width: 50px;
+        border: none;
+        background: rgba(255, 255, 255, .5);
+        outline: none;
+        position: absolute;
+        top: 50%;
+        right: 5%;
+        transform: translateY(-50%);
+        z-index: 1;
+    }
 }

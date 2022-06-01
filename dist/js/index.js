@@ -1,9 +1,9 @@
 $(document).ready(function () {
     // Slider
-    $('.carousel__inner').slick({
+    $('.slider').slick({
         speed: 500,
-        prevArrow: '<button type="button" class="slick-prev"><img src="slider/chevron-left.svg"></button>',
-        nextArrow: '<button type="button" class="slick-next"><img src="slider/chevron-right.svg"></button>',
+        prevArrow: '<button type="button" class="slick-prev"><img src="icons/chevron-left.svg"></button>',
+        nextArrow: '<button type="button" class="slick-next"><img src="icons/chevron-right.svg"></button>',
         responsive: [{
             breakpoint: 992,
             settings: {
