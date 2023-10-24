@@ -1,12 +1,12 @@
 {
-  "name": "uber",
-  "version": "1.0.0",
-  "description": "",
+  "name": "starter-pack",
+  "version": "2.0.0",
+  "description": "Webpack + Gulp starter pack",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Pavlo Butovets <p.butovets@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.27.10",
