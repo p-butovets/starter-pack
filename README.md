@@ -1,3 +1,4 @@
+![Gulp](https://img.shields.io/badge/Gulp-4.0.2-blue)  ![Webpack](https://img.shields.io/badge/Webpack-5.73.0-green)  ![JavaScript](https://img.shields.io/badge/JavaScript-Yes-brightgreen) ![HTML/SCSS](https://img.shields.io/badge/HTML%2FSCSS-Yes-brightgreen)
 # Документация по файлу Gulp
 
 ## Название файла: `gulpfile.js`
