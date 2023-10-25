@@ -6,6 +6,7 @@ const autoprefixer = require('gulp-autoprefixer');
 const rename = require("gulp-rename");
 const imagemin = require('gulp-imagemin');
 const htmlmin = require('gulp-htmlmin');
+const concat = require('gulp-concat');
 
 gulp.task('server', function () {
 
@@ -58,6 +59,7 @@ gulp.task('html', function () {
 
 gulp.task('scripts', function () {
     return gulp.src("src/js/**/*.js")
+        .pipe(concat('index.js'))
         .pipe(gulp.dest("dist/js"))
         .pipe(browserSync.stream());
 });
