@@ -1,0 +1,1 @@
+{"version":3,"file":"bundle.js","mappings":"AAAAA,OAAOC,OAAS,WACZC,QAAQC,IAAI","sources":["webpack://starter-pack/./dist/js/index.js"],"sourcesContent":["window.onload = function () {\r\n    console.log(\"привет\");\r\n};"],"names":["window","onload","console","log"],"sourceRoot":""}
